@@ -26,11 +26,12 @@
  
  Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'fs').readdirSync('.').toString()))'' at line 1
  
+ Resolution: Using JSON.parse() instead of eval().
  
  ##ATTACK 3:
  http://ec2-18-208-136-252.compute-1.amazonaws.com:8080/login
  
- Attack: setTimeout(while(1))
+ Attack: setTimeout(while(1)
 
 
 
