@@ -1,3 +1,48 @@
+#Notes For Lab Handin
+
+ #Lab 8
+ 
+ ##ATTACK 1:
+ 
+ Attacked http://ec2-52-90-199-138.compute-1.amazonaws.com:8080 - Yusuf, John, Brian by changing username
+ 
+ Oops.. 
+ Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DROP TABLE users;"'' at line 1
+ 
+ Attack Method: "'; DROP TABLE users;"
+ 
+ Resolution:
+ 
+ Preventing server side javascript injection attacks should be done by validating user inputs on the server before processing.
+ 
+ 
+ 
+ ##ATTACK 2:
+ 
+ Attacked: http://ec2-18-219-228-255.us-east-2.compute.amazonaws.com:8080/login
+ 
+ Attack: eval(res.end(require('fs').readdirSync('.').toString()))
+ Oops.. 
+ 
+ Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'fs').readdirSync('.').toString()))'' at line 1
+ 
+ 
+ ##ATTACK 3:
+ http://ec2-18-208-136-252.compute-1.amazonaws.com:8080/login
+ 
+ Attack: setTimeout(while(1)
+
+
+
+
+
+
+
+
+
+
+
+
 # security_lab
 CS132 Spring 2019 Security Lab
 
