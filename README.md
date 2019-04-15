@@ -30,7 +30,7 @@
  ##ATTACK 3:
  http://ec2-18-208-136-252.compute-1.amazonaws.com:8080/login
  
- Attack: setTimeout(while(1)
+ Attack: setTimeout(while(1))
 
 
 
