@@ -33,7 +33,7 @@
  
  Attack: setTimeout(while(1)
 
-
+ Resolution: Using JSON.parse() instead of eval().
 
 
 
