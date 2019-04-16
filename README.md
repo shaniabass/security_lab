@@ -36,8 +36,7 @@ db.query("SELECT * FROM User WHERE userId=?", [req.session.userId], function(err
  
  Attack: setTimeout(while(1)
 
- Resolution: Using JSON.parse() instead of eval().
-
+ Resolution: Using JSON.parse() instead of setTimeout().
 
 
 
